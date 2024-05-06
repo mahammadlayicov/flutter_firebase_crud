@@ -41,3 +41,25 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# Android derleme dosyaları
+/build/
+.gradle/
+
+# iOS derleme dosyaları
+Pods/
+ios/Pods/
+ios/Podfile.lock
+ios/Podfile.lock
+
+# macOS derleme dosyaları
+.DS_Store
+
+# Firebase yapılandırma dosyaları
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Yerel yapılandırma dosyaları
+.env
+
+# VSCode ayar dosyaları
+.vscode/
